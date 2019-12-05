@@ -42,7 +42,7 @@ And three, you have an editor that you like,
 
 11
 00:00:23.110 --> 00:00:24.690
-like VS code, something like that.
+like VS Code, something like that.
 
 12
 00:00:24.690 --> 00:00:27.170
@@ -302,7 +302,7 @@ Don't pay any attention to these numbers here,
 
 76
 00:02:54.100 --> 00:02:57.800
-depending on when you taking this course.
+depending on when you're taking this course.
 
 77
 00:02:57.800 --> 00:02:59.960
@@ -426,7 +426,7 @@ Once you have a terminal open,
 
 107
 00:04:08.660 --> 00:04:11.720
-you can go ahead and just type node dash v
+you can go ahead and just type 'node dash v'
 
 108
 00:04:11.720 --> 00:04:13.230
@@ -450,7 +450,7 @@ that you have npm installed.
 
 113
 00:04:20.000 --> 00:04:21.820
-So, you type npm dash v,
+So, you type 'npm dash v',
 
 114
 00:04:21.820 --> 00:04:24.480
@@ -498,7 +498,7 @@ accessories and open up the Command Prompt.
 
 125
 00:04:54.810 --> 00:04:57.710
-There's also a nice little terminal called Cmder
+There's also a nice little terminal called 'Cmder'
 
 126
 00:04:58.650 --> 00:05:00.610
@@ -570,7 +570,7 @@ in order to run our JavaScript and to run our bundles.
 
 143
 00:05:37.470 --> 00:05:39.450
-So first is CD.
+So first is 'cd'.
 
 144
 00:05:39.450 --> 00:05:41.230
@@ -578,7 +578,7 @@ That means change directory.
 
 145
 00:05:41.230 --> 00:05:44.360
-If I take a look here, if you type ls dash l
+If I take a look here, if you type 'ls dash l'
 
 146
 00:05:45.830 --> 00:05:47.430
@@ -590,7 +590,7 @@ all of your directories.
 
 148
 00:05:51.420 --> 00:05:53.187
-If you're on Windows, you type dir
+If you're on Windows, you type 'dir'
 
 149
 00:05:53.187 --> 00:05:54.595
@@ -602,7 +602,7 @@ and you see I have a exercises directory,
 
 151
 00:05:56.320 --> 00:06:00.830
-if I want to get into that I just type cd space exercises.
+if I want to get into that I just type 'cd space exercises'.
 
 152
 00:06:00.830 --> 00:06:03.160
@@ -610,7 +610,7 @@ And then that will put me into it.
 
 153
 00:06:03.160 --> 00:06:04.740
-You can type pwd
+You can type 'pwd'
 
 154
 00:06:04.740 --> 00:06:07.100
@@ -674,7 +674,7 @@ See I just went into that exercise directory,
 
 169
 00:06:39.320 --> 00:06:41.720
-if I wanna go up a level, I type cd dot dot,
+if I wanna go up a level, I type 'cd dot dot',
 
 170
 00:06:41.720 --> 00:06:43.820
@@ -690,7 +690,7 @@ And that's pretty much all we need to know right now.
 
 173
 00:06:51.410 --> 00:06:55.370
-CD changes directory, pwd tells us where we are.
+'cd' changes directory, 'pwd' tells us where we are.
 
 174
 00:06:55.370 --> 00:06:57.170
@@ -706,11 +706,11 @@ if you want to see if your Node is working,
 
 177
 00:07:08.240 --> 00:07:10.580
-we already said that you can run no dash v,
+we already said that you can run 'node dash v',
 
 178
 00:07:10.580 --> 00:07:13.120
-but if you just type node,
+but if you just type 'node',
 
 179
 00:07:13.120 --> 00:07:15.330
@@ -726,7 +726,7 @@ it actually brings us into what's called a REPL.
 
 182
 00:07:20.440 --> 00:07:25.212
-Read, evaluate, what does REPL stand for rebels stand for?
+Read, evaluate, pr— what does REPL stand for?
 
 183
 00:07:25.212 --> 00:07:26.045
@@ -762,7 +762,7 @@ If I were to go into my JavaScript console here
 
 191
 00:07:49.460 --> 00:07:51.740
-and have like one plus one and gives you two,
+and type like 'one plus one' and gives you two,
 
 192
 00:07:51.740 --> 00:07:54.590
@@ -770,15 +770,15 @@ it's the same thing here, one plus one equals two.
 
 193
 00:07:54.590 --> 00:07:58.510
-Sometimes people type in node and then press enter
+Sometimes people type in 'node' and then press enter
 
 194
 00:07:58.510 --> 00:08:03.310
-and then they start typing things like ls and pwb and cd
+and then they start typing things like 'ls' and 'pwb' and 'cd'
 
 195
 00:08:03.310 --> 00:08:05.880
-and it doesn't it says like none of this is defined.
+and it doesn't— it says like none of this is defined.
 
 196
 00:08:05.880 --> 00:08:08.920
