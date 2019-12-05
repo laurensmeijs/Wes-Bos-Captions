@@ -86,7 +86,7 @@ runs on the actual page that is existing.
 
 22
 00:00:49.670 --> 00:00:52.320
-I could say something like document.querySelectorAll,
+I could say something like 'document.querySelectorAll',
 
 23
 00:00:54.840 --> 00:00:56.630
@@ -158,7 +158,7 @@ Let's go into our playground folder and make a new file.
 
 40
 00:01:35.320 --> 00:01:39.370
-We'll call that running-js.html.
+We'll call that "running-js.html".
 
 41
 00:01:39.370 --> 00:01:40.450
@@ -178,7 +178,7 @@ And in the body here, we just have a script tag,
 
 45
 00:01:50.660 --> 00:01:53.520
-and we can console.log, hey.
+and we can 'console.log', hey.
 
 46
 00:01:53.520 --> 00:01:56.830
@@ -254,11 +254,11 @@ hey, and I were to try to select that element,
 
 64
 00:02:46.480 --> 00:02:49.700
-so const paragraph is equal to
+so 'const paragraph' is equal to
 
 65
 00:02:49.700 --> 00:02:52.586
-document dot query selector.
+'document dot querySelector'.
 
 66
 00:02:52.586 --> 00:02:54.080
@@ -266,7 +266,7 @@ And we'll select the paragraph
 
 67
 00:02:54.080 --> 00:02:56.203
-and then console.log the paragraph.
+and then 'console.log' the paragraph.
 
 68
 00:02:57.130 --> 00:02:58.150
@@ -290,7 +290,7 @@ and I were to just refresh that page,
 
 73
 00:03:09.210 --> 00:03:13.780
-you see that we get null which means that it found nothing.
+you see that we get 'null' which means that it found nothing.
 
 74
 00:03:13.780 --> 00:03:17.550
@@ -314,7 +314,7 @@ So if we try to select something that doesn't yet exist,
 
 79
 00:03:26.550 --> 00:03:28.650
-cause it gets created later,
+'cause it gets created later,
 
 80
 00:03:28.650 --> 00:03:30.780
@@ -322,7 +322,7 @@ then we won't have access to it.
 
 81
 00:03:30.780 --> 00:03:33.090
-So I'll talk about a couple different options
+So, I'll talk about a couple different options
 
 82
 00:03:33.090 --> 00:03:37.240
@@ -346,7 +346,7 @@ We'll talk a little bit more about loading and, and whatnot,
 
 87
 00:03:47.960 --> 00:03:49.410
-in some future videos when we to get
+in some future videos when we get
 
 88
 00:03:49.410 --> 00:03:51.420
@@ -354,7 +354,7 @@ a little bit more into the DOM,
 
 89
 00:03:51.420 --> 00:03:54.163
-and that will that be how we can run it.
+and that will be how we can run it.
 
 90
 00:03:55.240 --> 00:03:57.600
@@ -370,11 +370,11 @@ So if I were to go into my playground
 
 93
 00:04:02.420 --> 00:04:07.240
-and make a sum dot JS, and this is a dot JS file,
+and make a 'some dot JS', and this is a dot JS file,
 
 94
 00:04:07.240 --> 00:04:12.240
-and in here console dot log, I'm in another file,
+and in here 'console dot log', I'm in another file,
 
 95
 00:04:14.510 --> 00:04:19.473
@@ -394,7 +394,7 @@ So sometimes you may see like a type is equal to,
 
 99
 00:04:30.220 --> 00:04:33.380
-I don't know, like text forward slash JavaScript in there.
+I don't know, like "text forward slash JavaScript" in there.
 
 100
 00:04:33.380 --> 00:04:36.480
@@ -410,7 +410,7 @@ And then you need to give it a relative path.
 
 103
 00:04:42.780 --> 00:04:46.760
-So dot forward slash, and then give it sum dot JS.
+So 'dot forward slash', and then give it 'some dot JS'.
 
 104
 00:04:46.760 --> 00:04:50.370
@@ -418,15 +418,15 @@ Because the HTML file is in a folder
 
 105
 00:04:50.370 --> 00:04:52.760
-where the sibling is sum dot JS.
+where the sibling is 'some dot JS'.
 
 106
 00:04:52.760 --> 00:04:56.080
-So dot forward slash means in this folder,
+So 'dot forward slash' means in this folder,
 
 107
 00:04:56.080 --> 00:04:59.200
-if I were to do dot dot, that would mean go up a level
+if I were to do 'dot dot', that would mean go up a level
 
 108
 00:05:00.050 --> 00:05:01.900
@@ -486,11 +486,11 @@ but if we were to try to select some things on the page,
 
 122
 00:05:37.970 --> 00:05:42.970
-so const p is equal to document dot query selector.
+so 'const p' is equal to 'document dot querySelector'.
 
 123
 00:05:45.410 --> 00:05:47.230
-Now when I refresh it, you see we have null.
+Now when I refresh it, you see we have 'null'.
 
 124
 00:05:47.230 --> 00:05:51.400
@@ -506,7 +506,7 @@ Now there are some options.
 
 127
 00:05:56.870 --> 00:06:00.170
-There are async and a defer attributes
+There are 'async' and a 'defer' attributes
 
 128
 00:06:00.170 --> 00:06:01.730
@@ -530,7 +530,7 @@ But that's a much more advanced topic
 
 133
 00:06:16.100 --> 00:06:19.020
-that we'll get into when we hit async.
+that we'll get into when we hit 'async'.
 
 134
 00:06:19.020 --> 00:06:21.420
@@ -570,7 +570,7 @@ that you don't have any headaches that you hit.
 
 143
 00:06:38.140 --> 00:06:41.680
-Another thing is you might be noticing what is this?
+Another thing is you might be noticing like "What is this?"
 
 144
 00:06:41.680 --> 00:06:43.100
@@ -602,7 +602,7 @@ and you cannot put...
 
 151
 00:06:58.570 --> 00:07:01.870
-Sometimes I see people say console dot log, hey.
+Sometimes I see people say 'console dot log', hey.
 
 152
 00:07:01.870 --> 00:07:04.370
@@ -687,7 +687,7 @@ Oh, no one more that we have is actually
 
 172
 00:07:54.360 --> 00:07:56.070
-running it in no JS.
+running it in Node JS.
 
 173
 00:07:56.070 --> 00:08:00.610
@@ -695,11 +695,11 @@ So if I were to make another file
 
 174
 00:08:00.610 --> 00:08:05.610
-and we'll call that node dash example dot JS.
+and we'll call that "node dash example dot JS".
 
 175
 00:08:05.740 --> 00:08:10.475
-And here I'll just say console dot log IM from node.
+And here I'll just say 'console dot log IM from node'.
 
 176
 00:08:10.475 --> 00:08:14.410
